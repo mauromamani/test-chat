@@ -1,1 +1,1 @@
-export * from "./app";
+export { App as AIChatBot } from "./app/index.tsx";
