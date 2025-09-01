@@ -1,7 +1,7 @@
 import { AssistantModal } from "@/components/assistant-modal";
 import { MyRuntimeProvider } from "./providers/runtime.provider";
 
-export const App = () => {
+export const Chat = () => {
   return (
     <MyRuntimeProvider>
       <AssistantModal />
