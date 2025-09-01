@@ -3,16 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/ai-chatbot.umd.js",
-  "module": "./dist/ai-chatbot.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/ai-chatbot.es.js",
-      "require": "./dist/ai-chatbot.umd.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": ["dist"],
   "scripts": {
     "dev": "vite",

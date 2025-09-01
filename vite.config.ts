@@ -28,7 +28,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "AIChatbot",
-      fileName: (format) => `ai-chatbot.${format}.js`,
+      fileName: () => "index.js"
     },
     rollupOptions: {
       external: ["react", "react-dom"],
